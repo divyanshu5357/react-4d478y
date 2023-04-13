@@ -1,0 +1,82 @@
+/* billingForm.css */
+
+/* Container for the bill table */
+.billing-table-container {
+  margin-top: 30px;
+  text-align: center; /* Center the bill on the screen */
+}
+
+/* Table styles */
+.billing-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table header styles */
+.billing-table th {
+  text-align: left;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+/* Table row styles */
+.billing-table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Table cell styles */
+.billing-table td {
+  padding: 10px;
+}
+
+/* Table footer styles */
+.billing-table tfoot td {
+  text-align: right;
+  font-weight: bold;
+}
+
+/* Overall bill container styles */
+.overall-bill-container {
+  margin-top: 30px;
+  text-align: center; /* Center the bill on the screen */
+}
+
+/* Customer name styles */
+.customer-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333; /* Proper heading color */
+}
+
+/* Date styles */
+.date {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+/* Total price styles */
+.total-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 600px) {
+  /* Adjust styles for smaller screens */
+  .billing-table th,
+  .billing-table td,
+  .billing-table tfoot td,
+  .customer-name,
+  .date,
+  .total-price {
+    font-size: 14px;
+    padding: 5px;
+  }
+  
+  .customer-name {
+    font-size: 16px;
+  }
+}
